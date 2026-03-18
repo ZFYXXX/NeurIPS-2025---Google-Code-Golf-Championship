@@ -1,0 +1,1 @@
+def p(g):B=sum(g,[]);C=max(B.count(A)for A in B if A>0);A=dict.fromkeys(sum(zip(*g[::-1]),()));return[[A for A in A if B.count(A)==C]]*C

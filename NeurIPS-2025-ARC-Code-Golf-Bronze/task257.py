@@ -1,0 +1,1 @@
+p=lambda n:[[n[i][j]or n[i][j+5]or n[i+5][j]or n[i+5][j+5]or 0 for j in range(4)]for i in range(4)]

@@ -1,0 +1,1 @@
+def p(j):c=[[r and j[6][0]for r in X]for X in j];c[6][0]=0;return c

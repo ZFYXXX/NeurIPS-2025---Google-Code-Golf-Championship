@@ -1,0 +1,1 @@
+p=lambda g:[[5*x-28for x in r]for r in g]
