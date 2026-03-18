@@ -1,0 +1,1 @@
+p=lambda g:[[next(c[j+1]for a,b,c in zip(g,g[2:],g[1:])for j in range(len(c)-2)if a[j]==a[j+1]==b[j+1]==c[j]==c[j+2]==b[j+2]>0)]]

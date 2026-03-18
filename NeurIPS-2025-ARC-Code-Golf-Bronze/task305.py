@@ -1,0 +1,1 @@
+def p(r):n=len(r);t=[y for x in r for y in x if y];return r if not t else[[(d:=sorted(set(t)))[(i+j)%len(d)]for j in range(n)]for i in range(n)]

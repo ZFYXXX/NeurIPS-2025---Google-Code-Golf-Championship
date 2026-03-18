@@ -1,0 +1,1 @@
+p=lambda j:[[(x,a[0]or 5)[x==5]for x in a]for a in j]

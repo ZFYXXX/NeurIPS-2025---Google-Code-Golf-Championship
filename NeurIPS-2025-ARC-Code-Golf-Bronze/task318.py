@@ -1,0 +1,1 @@
+p=lambda j:[[3*(a|b>0)for a,b in zip(j[r],j[r+5])]for r in range(4)]

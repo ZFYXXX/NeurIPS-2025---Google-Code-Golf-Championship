@@ -1,0 +1,1 @@
+p=lambda j:[[x]for x in sorted(set(sum(j,[])),key=sum(j,[]).count,reverse=True)[2:]]

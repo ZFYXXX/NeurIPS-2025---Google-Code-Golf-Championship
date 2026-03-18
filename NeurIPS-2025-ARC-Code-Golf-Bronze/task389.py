@@ -1,0 +1,1 @@
+p=lambda r:[[min({*sum(r,[])}-{5})*(i==5)for i in x]for x in r]

@@ -1,0 +1,1 @@
+p=lambda j:[[x]for x in sorted(set(sum(j,[])),key=lambda x:-sum(j,[]).count(x))[1:4]]

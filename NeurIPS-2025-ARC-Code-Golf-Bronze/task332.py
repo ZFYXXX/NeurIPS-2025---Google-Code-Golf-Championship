@@ -1,0 +1,1 @@
+p=lambda g:[[3*(c==5and j%2^len(r)%2)or c for j,c in enumerate(r)]for r in g]

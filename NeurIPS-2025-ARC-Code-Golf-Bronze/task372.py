@@ -1,0 +1,1 @@
+p=lambda g:[[x|y for x,y in zip(g[i],g[i+6])]for i in range(5)]

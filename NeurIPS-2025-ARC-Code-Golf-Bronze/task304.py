@@ -1,0 +1,1 @@
+def p(s):t=sum(s,[]);r=max(t,key=t.count);return[[s[i%3][j%3]*(s[i//3][j//3]==r)for j in range(9)]for i in range(9)]

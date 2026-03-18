@@ -1,0 +1,1 @@
+p=lambda j:[[*filter(None,sum(j,[]))]]

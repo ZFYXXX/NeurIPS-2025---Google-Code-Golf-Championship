@@ -1,0 +1,1 @@
+def p(j):n=len(j)//2;j[:n]=j[:~n:-1];return j

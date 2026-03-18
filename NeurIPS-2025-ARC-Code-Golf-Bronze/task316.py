@@ -1,0 +1,1 @@
+def p(j):c=[x for x in sum(zip(*j),())if x]+[0]*9;return[c[:3],c[5:2:-1],c[6:9]]

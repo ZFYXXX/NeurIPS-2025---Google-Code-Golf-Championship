@@ -1,0 +1,1 @@
+def p(e):n,m=[i for i,r in enumerate(e)if max(r)>0],[i for i,c in enumerate(zip(*e))if max(c)>0];return[[x for x in r[m[0]:m[-1]+1]for _ in'  ']for r in e[n[0]:n[-1]+1]for _ in'  ']

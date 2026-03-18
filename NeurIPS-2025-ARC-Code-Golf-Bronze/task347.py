@@ -1,0 +1,1 @@
+p=lambda m:[[6*(r[k]+r[k+3]>0)for k in range(3)]for r in m]

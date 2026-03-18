@@ -1,0 +1,1 @@
+def p(r):m=len(r);n=len(r[0]);g=[*map(list,r)];[g[i+a].__setitem__(j+b,1)for i in range(m)for j in range(n)if r[i][j]==2for a in(-1,0,1)for b in(-1,0,1)if a|b and 0<=i+a<m and 0<=j+b<n];return g

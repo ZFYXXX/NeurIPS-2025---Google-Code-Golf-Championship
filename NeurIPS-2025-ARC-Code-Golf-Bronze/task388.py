@@ -1,0 +1,1 @@
+def p(d):l=len(d);return[[8if(x:=d[a%l][f%l])<1and any(r[f%l]for r in d)else x for f in range(2*l)]for a in range(2*l)]

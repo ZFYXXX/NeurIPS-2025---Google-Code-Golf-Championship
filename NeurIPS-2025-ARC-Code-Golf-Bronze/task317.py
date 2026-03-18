@@ -1,0 +1,1 @@
+def p(n,x=range):e=len(n);return[[+(5in(n[i+a][j+b]for a in[-1,0,1]for b in[-1,0,1]if 0<=i+a<e>j+b>=0))for j in x(e)]for i in x(e)]
