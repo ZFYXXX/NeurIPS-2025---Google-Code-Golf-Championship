@@ -1,1 +1,0 @@
-def p(p):e=[[s[j:j+3]for s in p[i:i+3]]for i in range(0,len(p),3)for j in range(0,len(p[0]),3)];z=[tuple(y<1 for y in sum(b,[]))for b in e];return next(b for b,t in zip(e,z)if z.count(t)<2)

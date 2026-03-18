@@ -1,1 +1,0 @@
-p=lambda j:(A:=sum(c>0 for r in j for c in r),sum([[sum(([x]*A for x in r),[])]*A for r in j],[]))[1]

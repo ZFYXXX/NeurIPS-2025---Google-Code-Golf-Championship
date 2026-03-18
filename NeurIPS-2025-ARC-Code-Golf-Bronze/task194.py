@@ -1,1 +1,0 @@
-def p(l):c=lambda a,b:a+b;a=lambda x:[*map(list,zip(*x[::-1]))];r=a(a(l));return[*map(c,l,a(l)),*map(c,a(r),r)]

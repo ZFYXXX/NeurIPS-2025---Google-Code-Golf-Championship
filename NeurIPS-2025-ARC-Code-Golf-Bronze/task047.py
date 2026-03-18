@@ -1,1 +1,0 @@
-p=lambda f:[[2if (a:=max(f[i]))*(b:=max((z:=[*zip(*f)])[j]))and f[i][j]<1else a|b for j in range(9)]for i in range(9)]

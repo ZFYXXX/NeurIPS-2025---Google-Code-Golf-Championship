@@ -1,1 +1,0 @@
-p=lambda j,A=len:any(r[:A(r)//2]!=r[A(r)//2:]for r in j)and j[:A(j)//2]or[r[:A(r)//2]for r in j]

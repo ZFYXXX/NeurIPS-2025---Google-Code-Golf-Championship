@@ -1,1 +1,0 @@
-p=lambda g:[[c*any(0<=A+x<len(g)>0<=B+y<len(r)>g[A+x][B+y]<1for x,y in[(0,1),(1,0),(0,-1),(-1,0)])for B,c in enumerate(r)]for A,r in enumerate(g)]

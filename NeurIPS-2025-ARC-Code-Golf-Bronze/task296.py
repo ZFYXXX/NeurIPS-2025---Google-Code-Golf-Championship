@@ -1,1 +1,0 @@
-p=lambda g:[[g[i][j]|g[i+2][j]|g[i][j+4]|g[i+2][j+4]for j in[0,1,2]]for i in[0,1,2]]

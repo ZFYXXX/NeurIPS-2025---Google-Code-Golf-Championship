@@ -1,1 +1,0 @@
-def p(j):A=[l[:]for l in j];c=len(j);E=len(j[0]);k=c-1;W=0;l=1;exec("A[k][W]=1;k-=1\nif not 0<=W+l<E:l=-l\nW+=l\n"*c);return A

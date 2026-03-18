@@ -1,1 +1,0 @@
-def p(p):R=[0,1,2];return[[(sum(p[r*4+c][a*4+l]==6for c in R for l in R)>1)+0for a in R]for r in R]

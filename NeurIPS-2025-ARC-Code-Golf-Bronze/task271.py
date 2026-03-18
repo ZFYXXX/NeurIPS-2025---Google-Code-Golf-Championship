@@ -1,1 +1,0 @@
-def p(g):d=max((g[i][j:j+3]+g[i+1][j:j+3]+g[i+2][j:j+3]for i in range(7)for j in range(7)),key=lambda d:d.count(1)+d.count(8)/10);return d[:3],d[3:6],d[6:]

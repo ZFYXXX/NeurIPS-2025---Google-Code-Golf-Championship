@@ -1,1 +1,0 @@
-p=lambda r:[*map(list,zip(*[[0]*15if not(x and(a:=x[0]))else[0]*(k:=sum(x)//a)+[a]*k+[0]*(15-2*k)for x in zip(*r[::-1])]))][::-1]

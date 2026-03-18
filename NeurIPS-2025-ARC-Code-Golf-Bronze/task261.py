@@ -1,1 +1,0 @@
-p=lambda j:[[c//4for c in r]for r in[j[-1]]+j[:-1]]

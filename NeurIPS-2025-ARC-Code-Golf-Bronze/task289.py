@@ -1,1 +1,0 @@
-def p(g):A=len({*sum(g,[])})-1;R=range(A*3);return[[g[B//A][C//A]for C in R]for B in R]

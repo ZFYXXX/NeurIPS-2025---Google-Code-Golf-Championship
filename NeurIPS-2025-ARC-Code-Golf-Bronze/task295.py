@@ -1,1 +1,0 @@
-def p(g):r=g[0];n=len(r);c=r.count(0);g+=(r[:n-c]+r[:1]*i+[0]*(c-i)for i in range(1,n//2));return g

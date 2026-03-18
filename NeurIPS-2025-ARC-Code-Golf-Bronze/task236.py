@@ -1,1 +1,0 @@
-p=lambda j:[[3*(a+b not in(0,3))for a,b in zip(j[i],j[i+5])]for i in range(4)]

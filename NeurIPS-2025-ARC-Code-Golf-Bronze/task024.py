@@ -1,1 +1,0 @@
-p=lambda g,e=enumerate:(Z:={i for r in g for i,x in e(r)if x==2})and[[1in r or 3*(3in r)or v or 2*(i in Z)for i,v in e(r)]for r in g]
