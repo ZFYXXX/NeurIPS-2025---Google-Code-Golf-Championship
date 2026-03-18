@@ -1,0 +1,1 @@
+def p(e):n=len(e);return[[e[-(i>=n//2)][-(j>=n//2)]if(v:=e[i][j])==8 else v for j in range(2,n-2)]for i in range(2,n-2)]

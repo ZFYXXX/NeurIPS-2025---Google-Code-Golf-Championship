@@ -1,0 +1,1 @@
+p=lambda g:[[v*(sum(v==g[x][y]for x,y in((i-1,j),(i+1,j),(i,j-1),(i,j+1))if 0<=x<len(g)>0<=y<len(r))>1)for j,v in enumerate(r)]for i,r in enumerate(g)]
