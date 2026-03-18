@@ -1,0 +1,1 @@
+def p(g,m=max):B,C=m(m(g[:5])),m(m(g[-5:]));return[[(A in(0,2,7,9)or D%9<1)*[B,C][A>4]for D in range(10)]for A in range(10)]
