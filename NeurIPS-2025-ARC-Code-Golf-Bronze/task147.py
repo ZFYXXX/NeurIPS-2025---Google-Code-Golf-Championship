@@ -1,0 +1,1 @@
+def p(a):l=len(a);m=len(a[0]);return[[8if a[i][j]==3and any(a[i+c][j+d]==3for c,d in[(0,1),(1,0),(0,-1),(-1,0)]if 0<=i+c<l and 0<=j+d<m)else a[i][j]for j in range(m)]for i in range(l)]

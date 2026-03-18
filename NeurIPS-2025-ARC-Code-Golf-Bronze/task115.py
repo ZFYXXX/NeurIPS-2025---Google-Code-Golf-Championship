@@ -1,0 +1,1 @@
+def p(n):i=lambda n:[*dict.fromkeys(n)];n=[*map(i,n)];return[n[0]]if n[1:]==n[:-1]else[[n]for n in i(sum(n,[]))]

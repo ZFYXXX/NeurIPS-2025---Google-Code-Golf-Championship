@@ -1,0 +1,1 @@
+def p(g):a=[i for i,r in enumerate(g)if any(r)];b=[j for j,c in enumerate(zip(*g))if any(c)];return[r[b[-1]:b[0]-1:-1]for r in g[a[0]:a[-1]+1]]
