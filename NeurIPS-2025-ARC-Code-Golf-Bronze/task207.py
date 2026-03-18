@@ -1,0 +1,1 @@
+def p(t):l=(0,1),(3,4);a=[[[t[i][j]for j in k]for i in m]for m in l for k in l];return min(a,key=a.count)

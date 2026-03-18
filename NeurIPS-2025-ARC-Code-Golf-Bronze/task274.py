@@ -1,0 +1,1 @@
+def p(A):B=sum(A,[]);E=max(r.count(8)for r in A);k=(B.count(5)-E-2)/2-B.count(8)/E;return[[8*(k>0),8*(k>1),8*(k>2)],[0,0,8*(k>3)],[0]*3]

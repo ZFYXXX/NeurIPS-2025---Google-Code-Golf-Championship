@@ -1,0 +1,1 @@
+def p(g):d=g[len(g)//2][:len(g[0])//2];return[[d[~d.index(x)]for x in r]for r in g]

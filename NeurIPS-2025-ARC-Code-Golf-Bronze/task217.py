@@ -1,0 +1,1 @@
+def p(j,A=range(9)):c=[i-i%3 for i in A if sum(j[i])][0];E=[i-i%3 for i in A if sum(r[i]for r in j)][0];return[[j[c+y%3][E+x%3]*(j[c+y//3][E+x//3]>0)for x in A]for y in A]

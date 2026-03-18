@@ -1,0 +1,1 @@
+p=lambda j:[sum([[e]*3for e in r],[])for r in j for _ in'111']

@@ -1,0 +1,1 @@
+def p(g):g[2:]=[[A]*len(g[0])for A in g[0]]*2;return g
