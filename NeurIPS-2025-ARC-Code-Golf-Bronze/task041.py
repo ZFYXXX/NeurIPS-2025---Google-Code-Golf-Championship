@@ -1,0 +1,1 @@
+p=lambda j,a=0:[[x and(a:=(a<1)*x)or x|a for x in r]for r in j]

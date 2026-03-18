@@ -1,0 +1,1 @@
+def p(r):l=m=9;[(l:=min(l,i),m:=min(m,j))for i,R in enumerate(r)for j,v in enumerate(R)if v];return[R[m:m+3]for R in r[l:l+3]]

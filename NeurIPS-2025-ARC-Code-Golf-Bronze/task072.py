@@ -1,0 +1,1 @@
+p=lambda g:[[3*(x!=y)for x,y in zip(g[i],g[i+7])]for i in range(6)]
